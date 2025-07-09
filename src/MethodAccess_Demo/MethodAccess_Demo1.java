@@ -12,6 +12,14 @@ public class MethodAccess_Demo1 {
 		
 		int e = 10/2;
 		return e;
-
-}
+	}
+	
+	public String Printname() {
+		
+		String name ="Saurabh Dubey";
+		return Printname();
+				
+		
+		
+	}
 }

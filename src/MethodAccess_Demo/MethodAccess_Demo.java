@@ -17,6 +17,8 @@ public class MethodAccess_Demo {
 				md1.Multiplication();
 			int num = MethodAccess_Demo1.division();// we can call through the class name as well.
 			System.out.println(num);
+			String MyName = md1.Printname();
+			System.out.println();
 				
 
 			}
